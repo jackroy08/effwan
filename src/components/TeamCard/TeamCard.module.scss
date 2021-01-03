@@ -1,0 +1,31 @@
+.logo{
+    width: 350px;
+}
+
+.TeamCard{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: space-between;
+ 
+}
+
+.TeamCard__Header{
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.TeamCard__Header_Icon{
+    width: 50px;
+}
+.TeamCard__Car_Icon{
+    width: 300px;
+}
+
+p{
+    text-align: center;
+}

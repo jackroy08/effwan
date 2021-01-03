@@ -1,9 +1,9 @@
 import React from "react";
 import { render } from "@testing-library/react";
-import TeamList from "./TeamList";
+import TeamCard from "./TeamCard";
 
-describe("TeamList tests", () => {
+describe("TeamCard tests", () => {
   it("should render", () => {
-    expect(render(<TeamList />)).toBeTruthy();
+    expect(render(<TeamCard />)).toBeTruthy();
   });
 });

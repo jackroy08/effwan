@@ -1,9 +1,9 @@
 import React from "react";
 import { render } from "@testing-library/react";
-import team from "./team";
+import Navbar from "./Navbar";
 
-describe("team tests", () => {
+describe("Navbar tests", () => {
   it("should render", () => {
-    expect(render(<team />)).toBeTruthy();
+    expect(render(<Navbar />)).toBeTruthy();
   });
 });

@@ -1,0 +1,17 @@
+.cards {
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+    align-items: center;
+    
+   
+   
+    
+  
+    .card {
+      height: 500px;
+      width: 350px;
+      border: 2px black solid;
+      border-radius: 5px;
+    }
+  }

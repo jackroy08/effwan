@@ -1,12 +1,22 @@
 import React from "react";
-import styles from "./teamlist.module.scss";
+import styles from "./TeamList.module.scss";
+import TeamCard from "../TeamCard/TeamCard";
+import teams from "../../data/teams";
 
-const teamlist = () => {
-  return (
-    <>
-      <p>teamlist works</p>
-    </>
-  );
-};
+const TeamList = () => {
+  const getTeamJsx = (team) => (
+    <div className={styles.card}>
+      <TeamCard team={team}/>
+    </div>
+   
+  );  
 
-export default teamlist;
+    return (
+      <div className={styles.cards}>
+        {teams.map(getTeamJsx)}
+      </div>
+    );
+}
+
+
+export default TeamList;
