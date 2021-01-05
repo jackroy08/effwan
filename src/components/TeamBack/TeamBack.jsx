@@ -1,25 +1,46 @@
 import React from "react";
-import TeamCard from "../TeamCard";
+
 import styles from "./TeamBack.module.scss";
 
 const TeamBack = (props) => {
   const getDriversJsx = (driver) => (
-    <div className={styles.DriverPannel}>
-      <img className={styles.DriverPannel__Icon} src={driver.driverSmallImg} alt="driver"></img>
-      
-      <h4>{driver.strDriverName}</h4>
-      <div className={styles.DriverPannel__NumberFlag}>
-        <h4>{driver.driverNumber}</h4>
-        <img className={styles.DriverPannel__Flag} src={driver.driverCountryImg} alt="country"></img>
+    <div className={styles.TeamCard_Back_Drivers}>
+      <div className={styles.TeamCard_AccentDiv} style={{ backgroundColor: props.team.accentColour }}></div>
+      <img className={styles.TeamCard__Car_Icon} src={driver.driverLargeImg} alt="team logo"></img>
+      <div className={styles.TeamCard_AccentDiv} style={{ backgroundColor: props.team.accentColour }}></div>
+      <p>{driver.strDriverFName}</p>
+      <h3>{driver.strDriverName}</h3>
+      <div className={styles.TeamCard_Back_Facts}>
+        <div>
+          <h5>Country</h5>
+          <h5>Number</h5>
+          <h5>Races</h5>
+          <h5>Podiums</h5>
+          <h5>Championships</h5>
+          <h5>Highest Finish</h5>
+          <h5>Highest Qual</h5>
+
+        </div>
+        <div className={styles.TeamCard_Back_Facts_Right}>
+          <p>{driver.strDriverCountry}</p>
+          <p>{driver.driverNumber}</p>
+          <p>{driver.races}</p>
+          <p>{driver.podiums}</p>
+          <p>{driver.championships}</p>
+          <p>{driver.highestFinish}</p>
+          <p>{driver.highestQualify}</p>
+          <p></p>
+        </div>
       </div>
+      
     </div>
   );
-  
+
   return (
     <div className={styles.TeamCard_Back}>
-      <div className={styles.TeamCard_Back_Header}>
-      <h2>{props.team.strName}</h2>
-      <div className={styles.TeamCard_AccentDiv} style={{backgroundColor:props.team.accentColour}}></div> 
+      <div className={styles.TeamCardBack_Header}>
+        <h2>{props.team.strName}</h2>
+        <div className={styles.TeamCard_AccentDiv} style={{ backgroundColor: props.team.accentColour }}></div>
       </div>
       <div className={styles.TeamCard_Back_Facts}>
         <div>
@@ -29,7 +50,7 @@ const TeamBack = (props) => {
           <h5>Race Wins</h5>
           <h5>Podiums</h5>
           <h5>Points</h5>
-          <h5></h5>
+
         </div>
         <div className={styles.TeamCard_Back_Facts_Right}>
           <p>{props.team.strPrincipal}</p>
@@ -41,11 +62,12 @@ const TeamBack = (props) => {
           <p></p>
         </div>
       </div>
-      <h2>Drivers</h2>
+      
       <div className={styles.DriverList}>
+      <h2>Drivers</h2>
         {props.team.drivers.map(getDriversJsx)}
       </div>
-      
+
 
 
       {/* <div className={styles.TeamCard__Header}>
@@ -65,8 +87,8 @@ const TeamBack = (props) => {
        */}
 
 
-     
-      
+
+
     </div>
   );
 };

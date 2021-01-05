@@ -7,6 +7,7 @@ const teams = [
         drivers: [
             {
                 "strDriverName": "Hamilton",
+                "strDriverFName" : "Lewis",
                 "driverSmallImg" : "https://i.imgur.com/ck6Q5k5.png",
                 "driverLargeImg" : "https://i.imgur.com/sUMLG2Y.jpg",
                 "strDriverCountry" : "United Kingdom",
@@ -22,6 +23,7 @@ const teams = [
             }, 
             {
                 "strDriverName": "Bottas",
+                "strDriverFName" : "Valtteri",
                 "driverSmallImg" : "https://i.imgur.com/jRMDE8q.png",
                 "driverLargeImg" : "https://i.imgur.com/dvJRbWh.jpg",
                 "strDriverCountry" : "Finland",
@@ -55,6 +57,7 @@ const teams = [
         drivers: [
             {
                 "strDriverName": "Verstappen",
+                "strDriverFName" : "Max",
                 "driverSmallImg" : "https://i.imgur.com/WRM1KTA.png",
                 "driverLargeImg" : "https://i.imgur.com/ehqnTCh.jpg",
                 "strDriverCountry" : "The Netherlands",
@@ -69,6 +72,7 @@ const teams = [
             }, 
             {
                 "strDriverName": "Albon",
+                "strDriverFName" : "Alexander",
                 "driverSmallImg" : "https://i.imgur.com/wirFcf6.png",
                 "driverLargeImg" : "https://i.imgur.com/E58oSH1.jpg",
                 "strDriverCountry" : "Thailand",
@@ -103,6 +107,7 @@ const teams = [
         drivers: [
             {
                 "strDriverName": "Norris",
+                "strDriverFName" : "Lando",
                 "driverSmallImg" : "https://i.imgur.com/BwnWyL5.png",
                 "driverLargeImg" : "https://i.imgur.com/uGmzmiM.jpg",
                 "strDriverCountry" : "United Kingdom",
@@ -117,6 +122,7 @@ const teams = [
             }, 
             {
                 "strDriverName": "Sainz",
+                "strDriverFName" : "Carlos",
                 "driverSmallImg" : "https://i.imgur.com/nh8rENi.png",
                 "driverLargeImg" : "https://i.imgur.com/1IMUECs.jpg",
                 "strDriverCountry" : "Spain",
@@ -151,6 +157,7 @@ const teams = [
         drivers: [
             {
                 "strDriverName": "Perez",
+                "strDriverFName" : "Sergio",
                 "driverSmallImg" : "https://i.imgur.com/0yUQeG3.png",
                 "driverLargeImg" : "https://i.imgur.com/ij9bOFe.jpg",
                 "strDriverCountry" : "Mexico",
@@ -165,6 +172,7 @@ const teams = [
             }, 
             {
                 "strDriverName": "Stroll",
+                "strDriverFName" : "Lance",
                 "driverSmallImg" : "https://i.imgur.com/n6E2LV9.png",
                 "driverLargeImg" : "https://i.imgur.com/EmhUgw3.jpg",
                 "strDriverCountry" : "Canada",
@@ -199,6 +207,7 @@ const teams = [
         drivers: [
             {
                 "strDriverName": "Ricciardo",
+                "strDriverFName" : "Daniel",
                 "driverSmallImg" : "https://i.imgur.com/LxuSRKr.png",
                 "driverLargeImg" : "https://i.imgur.com/aJYJkEn.jpg",
                 "strDriverCountry" : "Australia",
@@ -213,6 +222,7 @@ const teams = [
             }, 
             {
                 "strDriverName": "Ocon",
+                "strDriverFName" : "Estaban",
                 "driverSmallImg" : "https://i.imgur.com/AVw6fVI.png",
                 "driverLargeImg" : "https://i.imgur.com/Iv9wu3d.jpg",
                 "strDriverCountry" : "France",
@@ -247,6 +257,7 @@ const teams = [
         drivers: [
             {
                 "strDriverName": "Vettel",
+                "strDriverFName" : "Sebastian",
                 "driverSmallImg" : "https://i.imgur.com/zDUVxgU.png",
                 "driverLargeImg" : "https://i.imgur.com/mAAdFs6.jpg",
                 "strDriverCountry" : "Germany",
@@ -261,6 +272,7 @@ const teams = [
             }, 
             {
                 "strDriverName": "Leclerc",
+                "strDriverFName" : "Charles",
                 "driverSmallImg" : "https://i.imgur.com/PBAVAaT.png",
                 "driverLargeImg" : "https://i.imgur.com/pB3Jrwn.jpg",
                 "strDriverCountry" : "Monaco",
@@ -295,6 +307,7 @@ const teams = [
         drivers: [
             {
                 "strDriverName": "Kvyat",
+                "strDriverFName" : "Daniil",
                 "driverSmallImg" : "https://i.imgur.com/pxaBGfm.png",
                 "driverLargeImg" : "https://i.imgur.com/sl5JDcE.jpg",
                 "strDriverCountry" : "Russia",
@@ -309,6 +322,7 @@ const teams = [
             }, 
             {
                 "strDriverName": "Gasly",
+                "strDriverFName" : "Pierre",
                 "driverSmallImg" : "https://i.imgur.com/RYvGD4K.png",
                 "driverLargeImg" : "https://i.imgur.com/TWlD81L.jpg",
                 "strDriverCountry" : "France",
@@ -343,6 +357,7 @@ const teams = [
         drivers: [
             {
                 "strDriverName": "Raikkonen",
+                "strDriverFName" : "Kimi",
                 "driverSmallImg" : "https://i.imgur.com/aWQdfvC.png",
                 "driverLargeImg" : "https://i.imgur.com/w3vLfbu.jpg",
                 "strDriverCountry" : "Finland",
@@ -357,6 +372,7 @@ const teams = [
             }, 
             {
                 "strDriverName": "Giovinazzi",
+                "strDriverFName" : "Antonio",
                 "driverSmallImg" : "https://i.imgur.com/J438sa3.png",
                 "driverLargeImg" : "https://i.imgur.com/pd9UuNi.jpg",
                 "strDriverCountry" : "Italy",
@@ -391,6 +407,7 @@ const teams = [
         drivers: [
             {
                 "strDriverName": "Grosjean",
+                "strDriverFName" : "Romain",
                 "driverSmallImg" : "https://i.imgur.com/5oGfajF.png",
                 "driverLargeImg" : "https://i.imgur.com/oJaUWkB.jpg",
                 "strDriverCountry" : "France",
@@ -405,6 +422,7 @@ const teams = [
             }, 
             {
                 "strDriverName": "Magnussen",
+                "strDriverFName" : "Kevin",
                 "driverSmallImg" : "https://i.imgur.com/qBt5kQu.png",
                 "driverLargeImg" : "https://i.imgur.com/Y6NXPHN.jpg",
                 "strDriverCountry" : "Denmark",
@@ -439,6 +457,7 @@ const teams = [
         drivers: [
             {
                 "strDriverName": "Russell",
+                "strDriverFName" : "George",
                 "driverSmallImg" : "https://i.imgur.com/1ohDMxe.png",
                 "driverLargeImg" : "https://i.imgur.com/7x9hN8t.jpg",
                 "strDriverCountry" : "United Kingdom",
@@ -453,6 +472,7 @@ const teams = [
             }, 
             {
                 "strDriverName": "Latifi",
+                "strDriverFName" : "Nicholas",
                 "driverSmallImg" : "https://i.imgur.com/WvDLzLw.png",
                 "driverLargeImg" : "https://i.imgur.com/J8D74sN.jpg",
                 "strDriverCountry" : "Canada",

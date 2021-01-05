@@ -12,21 +12,23 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+    overflow-y: scroll;
 
 }
 
 h2{
     text-align: center;
-    height: 50px;
+    
     font-family: "Prompt";
     font-size: 21px;
     margin:0px;
 }
 h3{
     text-align: center;
-    height: 50px;
-    font-family: "Prompt";
+    height: 30px;
+    font-family: "Audiowide";
     font-size: 21px;
+    font-weight: 300;
     margin:0px;
 }
 
@@ -34,12 +36,12 @@ h5{
     font-family: "Audiowide";
     font-size: 17px;
     font-weight: 400;
-    margin: 10px 0px 10px 0px;
+    margin: 10px 0px 13px 0px;
 }
 
 p{
     font-family: "Poppins";
-    margin: 9px 0px 8px 0px;
+    margin: 10px 0px 8px 0px;
 }
 .TeamCard_AccentDiv {
     width: 250px;
@@ -52,9 +54,9 @@ p{
 }
 
 
-.TeamCard_Back_Header{
-    margin:15px 0px 0px 0px;
-    height: 50px;
+.TeamCardBack_Header{
+    margin:20px 0px 0px 0px;
+    height: 70px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -69,6 +71,7 @@ p{
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    margin: 20px 0px 20px 0px;
 
 }
 
@@ -77,4 +80,16 @@ p{
 }
 
 
+
+.TeamCard_Back_Drivers{
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+    img{
+        width: 90%;
+    }
+}
 
