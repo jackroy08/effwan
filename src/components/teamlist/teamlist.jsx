@@ -8,6 +8,7 @@ const TeamList = () => {
     <div className={styles.card}>
       <TeamCard team={team}/>
     </div>
+ 
    
   );  
 

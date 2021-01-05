@@ -1,31 +1,32 @@
-.logo{
-    width: 350px;
-}
-
-.TeamCard{
- display: flex;
- flex-direction: column;
- align-items: center;
- justify-content: space-between;
- 
-}
-
-.TeamCard__Header{
-    width: 300px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    
-}
-
-.TeamCard__Header_Icon{
-    width: 50px;
-}
-.TeamCard__Car_Icon{
-    width: 300px;
-}
-
-p{
-    text-align: center;
-}
+.recipeCard {
+    height: 100%;
+    width: 100%;
+    transition: transform 0.25s;
+    transform-style: preserve-3d;
+    perspective: 500px;
+    position: relative;
+    z-index: 0;
+  
+    &.faceDown {
+      transform: rotatey(180deg);
+    }
+  
+    .front {
+      height: 100%;
+      width: 100%;
+      border-radius: 10px;
+      background: white;
+      backface-visibility: hidden;
+      position: absolute;
+    }
+  
+    .back {
+        height: 100%;
+        width: 100%;
+        border-radius: 10px;
+      transform: rotatey(180deg);
+      background: white;
+      backface-visibility: hidden;
+      position: absolute;
+    }
+  }
