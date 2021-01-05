@@ -8,18 +8,30 @@ const teams = [
             {
                 "strDriverName": "Hamilton",
                 "driverSmallImg" : "https://i.imgur.com/ck6Q5k5.png",
+                "driverLargeImg" : "https://i.imgur.com/sUMLG2Y.jpg",
                 "strDriverCountry" : "United Kingdom",
                 "driverCountryImg" : "https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/Flag_of_the_United_Kingdom.svg/1200px-Flag_of_the_United_Kingdom.svg.png",
-                "driverNumber" : "44"
+                "driverNumber" : "44",
+                "races" : "266",
+                "podiums" : "165",
+                "championships" : "7",
+                "highestFinish": "1",
+                "highestQualify": "1"
+                
             
             }, 
             {
                 "strDriverName": "Bottas",
                 "driverSmallImg" : "https://i.imgur.com/jRMDE8q.png",
+                "driverLargeImg" : "https://i.imgur.com/dvJRbWh.jpg",
                 "strDriverCountry" : "Finland",
                 "driverCountryImg" : "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_Finland.svg/1920px-Flag_of_Finland.svg.png",
-                "driverNumber" : "77"
-            
+                "driverNumber" : "77",
+                "races" : "157",
+                "podiums" : "56",
+                "championships" : "0",
+                "highestFinish": "1",
+                "highestQualify": "1"
             },
         ],
         "constructorsChampionships": 9,
@@ -44,17 +56,29 @@ const teams = [
             {
                 "strDriverName": "Verstappen",
                 "driverSmallImg" : "https://i.imgur.com/WRM1KTA.png",
+                "driverLargeImg" : "https://i.imgur.com/ehqnTCh.jpg",
                 "strDriverCountry" : "The Netherlands",
                 "driverCountryImg" : "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Flag_of_the_Netherlands.svg/1920px-Flag_of_the_Netherlands.svg.png",
-                "driverNumber" : "33"
+                "driverNumber" : "33",
+                "races" : "119",
+                "podiums" : "42",
+                "championships" : "0",
+                "highestFinish": "1",
+                "highestQualify": "1"
             
             }, 
             {
                 "strDriverName": "Albon",
                 "driverSmallImg" : "https://i.imgur.com/wirFcf6.png",
+                "driverLargeImg" : "https://i.imgur.com/E58oSH1.jpg",
                 "strDriverCountry" : "Thailand",
                 "driverCountryImg" : "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_Thailand.svg/1024px-Flag_of_Thailand.svg.png",
-                "driverNumber" : "23"
+                "driverNumber" : "23",
+                "races" : "38",
+                "podiums" : "2",
+                "championships" : "0",
+                "highestFinish": "3",
+                "highestQualify": "4"
             
             },
         ],
@@ -80,17 +104,29 @@ const teams = [
             {
                 "strDriverName": "Norris",
                 "driverSmallImg" : "https://i.imgur.com/BwnWyL5.png",
+                "driverLargeImg" : "https://i.imgur.com/uGmzmiM.jpg",
                 "strDriverCountry" : "United Kingdom",
                 "driverCountryImg" : "https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/Flag_of_the_United_Kingdom.svg/1200px-Flag_of_the_United_Kingdom.svg.png",
-                "driverNumber" : "4"
+                "driverNumber" : "4",
+                "races" : "38",
+                "podiums" : "1",
+                "championships" : "0",
+                "highestFinish": "3",
+                "highestQualify": "3"
             
             }, 
             {
                 "strDriverName": "Sainz",
                 "driverSmallImg" : "https://i.imgur.com/nh8rENi.png",
+                "driverLargeImg" : "https://i.imgur.com/1IMUECs.jpg",
                 "strDriverCountry" : "Spain",
                 "driverCountryImg" : "https://upload.wikimedia.org/wikipedia/en/thumb/9/9a/Flag_of_Spain.svg/1024px-Flag_of_Spain.svg.png",
-                "driverNumber" : "55"
+                "driverNumber" : "55",
+                "races" : "119",
+                "podiums" : "2",
+                "championships" : "0",
+                "highestFinish": "2",
+                "highestQualify": "3"
             
             },
         ],
@@ -116,17 +152,29 @@ const teams = [
             {
                 "strDriverName": "Perez",
                 "driverSmallImg" : "https://i.imgur.com/0yUQeG3.png",
+                "driverLargeImg" : "https://i.imgur.com/ij9bOFe.jpg",
                 "strDriverCountry" : "Mexico",
                 "driverCountryImg" : "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Flag_of_Mexico.svg/1024px-Flag_of_Mexico.svg.png",
-                "driverNumber" : "11"
+                "driverNumber" : "11",
+                "races" : "193",
+                "podiums" : "10",
+                "championships" : "0",
+                "highestFinish": "1",
+                "highestQualify": "3"
             
             }, 
             {
                 "strDriverName": "Stroll",
                 "driverSmallImg" : "https://i.imgur.com/n6E2LV9.png",
+                "driverLargeImg" : "https://i.imgur.com/EmhUgw3.jpg",
                 "strDriverCountry" : "Canada",
                 "driverCountryImg" : "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Flag_of_Canada_%28Pantone%29.svg/1024px-Flag_of_Canada_%28Pantone%29.svg.png",
-                "driverNumber" : "18"
+                "driverNumber" : "18",
+                "races" : "78",
+                "podiums" : "3",
+                "championships" : "0",
+                "highestFinish": "3",
+                "highestQualify": "1"
             
             },
         ],
@@ -152,17 +200,29 @@ const teams = [
             {
                 "strDriverName": "Ricciardo",
                 "driverSmallImg" : "https://i.imgur.com/LxuSRKr.png",
+                "driverLargeImg" : "https://i.imgur.com/aJYJkEn.jpg",
                 "strDriverCountry" : "Australia",
                 "driverCountryImg" : "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Flag_of_Australia_%28converted%29.svg/1024px-Flag_of_Australia_%28converted%29.svg.png",
-                "driverNumber" : "3"
+                "driverNumber" : "3",
+                "races" : "188",
+                "podiums" : "31",
+                "championships" : "0",
+                "highestFinish": "1",
+                "highestQualify": "1"
             
             }, 
             {
                 "strDriverName": "Ocon",
                 "driverSmallImg" : "https://i.imgur.com/AVw6fVI.png",
+                "driverLargeImg" : "https://i.imgur.com/Iv9wu3d.jpg",
                 "strDriverCountry" : "France",
                 "driverCountryImg" : "https://upload.wikimedia.org/wikipedia/en/thumb/c/c3/Flag_of_France.svg/1024px-Flag_of_France.svg.png",
-                "driverNumber" : "31"
+                "driverNumber" : "31",
+                "races" : "67",
+                "podiums" : "1",
+                "championships" : "0",
+                "highestFinish": "2",
+                "highestQualify": "3"
             
             },
         ],
@@ -188,17 +248,29 @@ const teams = [
             {
                 "strDriverName": "Vettel",
                 "driverSmallImg" : "https://i.imgur.com/zDUVxgU.png",
+                "driverLargeImg" : "https://i.imgur.com/mAAdFs6.jpg",
                 "strDriverCountry" : "Germany",
                 "driverCountryImg" : "https://upload.wikimedia.org/wikipedia/en/thumb/b/ba/Flag_of_Germany.svg/1024px-Flag_of_Germany.svg.png",
-                "driverNumber" : "5"
+                "driverNumber" : "5",
+                "races" : "258",
+                "podiums" : "121",
+                "championships" : "4",
+                "highestFinish": "1",
+                "highestQualify": "1"
             
             }, 
             {
                 "strDriverName": "Leclerc",
                 "driverSmallImg" : "https://i.imgur.com/PBAVAaT.png",
+                "driverLargeImg" : "https://i.imgur.com/pB3Jrwn.jpg",
                 "strDriverCountry" : "Monaco",
                 "driverCountryImg" : "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Flag_of_Monaco.svg/1024px-Flag_of_Monaco.svg.png",
-                "driverNumber" : "16"
+                "driverNumber" : "16",
+                "races" : "59",
+                "podiums" : "12",
+                "championships" : "0",
+                "highestFinish": "1",
+                "highestQualify": "1"
             
             },
         ],
@@ -224,17 +296,29 @@ const teams = [
             {
                 "strDriverName": "Kvyat",
                 "driverSmallImg" : "https://i.imgur.com/pxaBGfm.png",
+                "driverLargeImg" : "https://i.imgur.com/sl5JDcE.jpg",
                 "strDriverCountry" : "Russia",
                 "driverCountryImg" : "https://upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/1024px-Flag_of_Russia.svg.png",
-                "driverNumber" : "26"
+                "driverNumber" : "26",
+                "races" : "112",
+                "podiums" : "3",
+                "championships" : "0",
+                "highestFinish": "2",
+                "highestQualify": "4"
             
             }, 
             {
                 "strDriverName": "Gasly",
                 "driverSmallImg" : "https://i.imgur.com/RYvGD4K.png",
+                "driverLargeImg" : "https://i.imgur.com/TWlD81L.jpg",
                 "strDriverCountry" : "France",
                 "driverCountryImg" : "https://upload.wikimedia.org/wikipedia/en/thumb/c/c3/Flag_of_France.svg/1024px-Flag_of_France.svg.png",
-                "driverNumber" : "10"
+                "driverNumber" : "10",
+                "races" : "64",
+                "podiums" : "2",
+                "championships" : "",
+                "highestFinish": "1",
+                "highestQualify": "4"
             
             },
         ],
@@ -260,17 +344,29 @@ const teams = [
             {
                 "strDriverName": "Raikkonen",
                 "driverSmallImg" : "https://i.imgur.com/aWQdfvC.png",
+                "driverLargeImg" : "https://i.imgur.com/w3vLfbu.jpg",
                 "strDriverCountry" : "Finland",
                 "driverCountryImg" : "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_Finland.svg/1920px-Flag_of_Finland.svg.png",
-                "driverNumber" : "7"
+                "driverNumber" : "7",
+                "races" : "332",
+                "podiums" : "103",
+                "championships" : "1",
+                "highestFinish": "1",
+                "highestQualify": "1"
             
             }, 
             {
                 "strDriverName": "Giovinazzi",
                 "driverSmallImg" : "https://i.imgur.com/J438sa3.png",
+                "driverLargeImg" : "https://i.imgur.com/pd9UuNi.jpg",
                 "strDriverCountry" : "Italy",
                 "driverCountryImg" : "https://upload.wikimedia.org/wikipedia/en/thumb/0/03/Flag_of_Italy.svg/1024px-Flag_of_Italy.svg.png",
-                "driverNumber" : "99"
+                "driverNumber" : "99",
+                "races" : "40",
+                "podiums" : "0",
+                "championships" : "0",
+                "highestFinish": "5",
+                "highestQualify": "7"
             
             },
         ],
@@ -296,17 +392,29 @@ const teams = [
             {
                 "strDriverName": "Grosjean",
                 "driverSmallImg" : "https://i.imgur.com/5oGfajF.png",
+                "driverLargeImg" : "https://i.imgur.com/oJaUWkB.jpg",
                 "strDriverCountry" : "France",
                 "driverCountryImg" : "https://upload.wikimedia.org/wikipedia/en/thumb/c/c3/Flag_of_France.svg/1024px-Flag_of_France.svg.png",
-                "driverNumber" : "8"
+                "driverNumber" : "8",
+                "races" : "181",
+                "podiums" : "10",
+                "championships" : "0",
+                "highestFinish": "2",
+                "highestQualify": "2"
             
             }, 
             {
                 "strDriverName": "Magnussen",
                 "driverSmallImg" : "https://i.imgur.com/qBt5kQu.png",
+                "driverLargeImg" : "https://i.imgur.com/Y6NXPHN.jpg",
                 "strDriverCountry" : "Denmark",
                 "driverCountryImg" : "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Flag_of_Denmark.svg/1024px-Flag_of_Denmark.svg.png",
-                "driverNumber" : "20"
+                "driverNumber" : "20",
+                "races" : "120",
+                "podiums" : "1",
+                "championships" : "0",
+                "highestFinish": "2",
+                "highestQualify": "4"
             
             },
         ],
@@ -332,17 +440,29 @@ const teams = [
             {
                 "strDriverName": "Russell",
                 "driverSmallImg" : "https://i.imgur.com/1ohDMxe.png",
+                "driverLargeImg" : "https://i.imgur.com/7x9hN8t.jpg",
                 "strDriverCountry" : "United Kingdom",
                 "driverCountryImg" : "https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/Flag_of_the_United_Kingdom.svg/1200px-Flag_of_the_United_Kingdom.svg.png",
-                "driverNumber" : "63"
+                "driverNumber" : "63",
+                "races" : "38",
+                "podiums" : "0",
+                "championships" : "0",
+                "highestFinish": "9",
+                "highestQualify": "2"
             
             }, 
             {
                 "strDriverName": "Latifi",
                 "driverSmallImg" : "https://i.imgur.com/WvDLzLw.png",
+                "driverLargeImg" : "https://i.imgur.com/J8D74sN.jpg",
                 "strDriverCountry" : "Canada",
                 "driverCountryImg" : "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Flag_of_Canada_%28Pantone%29.svg/1024px-Flag_of_Canada_%28Pantone%29.svg.png",
-                "driverNumber" : "6"
+                "driverNumber" : "6",
+                "races" : "16",
+                "podiums" : "0",
+                "championships" : "0",
+                "highestFinish": "11",
+                "highestQualify": "15"
             
             },
         ],
