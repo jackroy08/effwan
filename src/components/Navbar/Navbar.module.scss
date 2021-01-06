@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Audiowide');
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+.header {
+
+
+    h1 {
+        text-align: center;
+        color: white;
+        font-family: "AudioWide";
+        letter-spacing: 10px;
+        font-size: 50px;
+        margin: 30px 0px 10px 0px;
+    }
+
+    h2 {
+        color: white;
+        font-weight: 400;
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    p{
+        text-align: center;
+        color: white;
+        margin-bottom: 20px;
+    }
+}

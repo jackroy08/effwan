@@ -11,7 +11,6 @@ const TeamCard = (props) => {
   const flipStyles = isFaceDown ? styles.faceDown : "";
   return (
     <section className={`${styles.recipeCard} ${flipStyles}`} onClick={() => setIsFaceDown(!isFaceDown)}>
-     
       <div className={styles.front}>
         <TeamFront team={team} />
       </div>

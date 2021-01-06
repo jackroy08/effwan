@@ -9,6 +9,7 @@
   
     &.faceDown {
       transform: rotatey(180deg);
+      
     }
   
     .front {
@@ -17,6 +18,7 @@
       border-radius: 10px;
       background: white;
       backface-visibility: hidden;
+      
       position: absolute;
     }
   
@@ -28,5 +30,6 @@
       background: white;
       backface-visibility: hidden;
       position: absolute;
+      overflow-y: auto;
     }
   }
